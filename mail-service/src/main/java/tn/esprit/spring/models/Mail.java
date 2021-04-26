@@ -9,7 +9,7 @@ public class Mail {
 	private String text;
 	private List<String> to = new ArrayList<>();
 	private List<String> attachements = new ArrayList<>();
-	
+	private int id;
 	
 	
 	public String getSubject() {
